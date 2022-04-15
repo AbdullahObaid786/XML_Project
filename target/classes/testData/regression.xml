@@ -1,0 +1,28 @@
+<suite name="regression">
+	<test name="LoginTest">
+
+		<parameter name="UserName" value="demo@techfios.com" />
+		<parameter name="Password" value="abc123" />
+		<parameter name="FullName" value="Obaid" />
+		<parameter name="CompanyName" value="Techfios" />
+		<parameter name="Email" value="msexcell1@gmail.com" />
+		<parameter name="Phone" value="a1681351" />
+		<parameter name="Address" value="TechFios Building" />
+		<parameter name="City" value="Addison" />
+		<parameter name="State" value="Tx" />
+		<parameter name="Zip" value="a75009" />
+		<parameter name="Country" value="United States" />
+
+
+		<classes>
+
+			<!-- To Comment an XML File -->
+			<!--<class name="test.LoginTest" /> -->
+			
+			<class name="test.AddCustomerTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
